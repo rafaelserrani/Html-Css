@@ -13,6 +13,7 @@
     table{
       width: 350px;
       border-collapse: collapse;
+      position: relative;
     }
 
     caption{
@@ -31,6 +32,13 @@
     thead,tfoot{
       background-color: lightslategray;
       color: aliceblue;
+    }
+
+    thead > tr > th{
+      position: sticky;
+      top: -1px;
+      background-color: lightslategray;
+        
     }
 
     tbody > tr:nth-child(odd) {
