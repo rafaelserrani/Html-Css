@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Form</title>
+  <link rel="stylesheet" href="estilo/style.css">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>freeCodecamp Survey form</h1>
+    <h2>Thank you for taking the time to help us improve the plataform</h2>
+  </header>
+  <main>
+    <div class="container">
+      <div class="item">
+        <form action="" method="get" autocomplete="on">
+          <div>
+            <label for="inome">Name</label>
+            <input type="text" name="nome" id="inome" placeholder="Enter your name" required>
+          </div>
+          <div>
+            <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail" placeholder="Enter your email" required>
+          </div>
+          <div>
+            <label for="iage">Age (Optional)</label>
+            <input type="number" name="age" id="iage" placeholder="Age">
+          </div>
+          <div>
+            <label for="irole">Wich option best describes your current role?</label>
+            <select name="role" id="irole">
+              <option value="" selected>Select current role</option>
+              <option value="">Student</option>
+              <option value="">Fulltime job</option>
+              <option value="">Fulltime learn</option>
+              <option value="">Prefer not to say</option>
+              <option value="">Other</option>
+            </select>
+          </div>
+          <div>
+            <legend>Would option best describes your current role?</legend>
+            <input type="radio" name="definitely" id="idefinitely" checked> 
+            <label for="idefinitely">Definitely</label>
+            <input type="radio" name="maybe" id="imaybe">
+            <label for="imaybe">Maybe</label>
+            <input type="radio" name="not sure" id="inotesure">
+            <label for="inotesure">Not sure</label>
+          </div>
+          <div>
+            <label for="ifeature">Whay is your favorite feature of freeCodeCamp?</label>
+            <select name="feature" id="ifeature">
+              <option value="" selected>Select on a option</option>
+              <option value="">Challanges</option>
+              <option value="">Projects</option>
+              <option value="">Community</option>
+              <option value="">Open source</option>
+            </select>
+          </div>
+          <div>
+            <legend>What Would you like to see improved? (Check all that apply)</legend>
+            <input type="checkbox" name="frontend" id="ifrontend">
+            <label for="ifrontend">Front-end Projects</label>
+            <input type="checkbox" name="backend" id="ibackend">
+            <label for="ibackend">Back-end Projects</label>
+            <input type="checkbox" name="data" id="idata">
+            <label for="idata">Data visualization</label>
+            <input type="checkbox" name="challengs" id="ichallenge">
+            <label for="ichallenge">Challanges</label>
+            <input type="checkbox" name="opensource" id="iopensource">
+            <label for="iopensource">Open Source Community</label>
+            <input type="checkbox" name="gitter" id="igitter">
+            <label for="igitter">Gitter help rooms</label>
+            <input type="checkbox" name="videos" id="ivideos">
+            <label for="ivideos">Videos</label>
+            <input type="checkbox" name="city" id="icity">
+            <label for="icity">City meetups</label>
+            <input type="checkbox" name="wiki" id="iwiki">
+            <label for="iwiki">Wiki</label>
+            <input type="checkbox" name="forum" id="iforum">
+            <label for="iforum">Forum</label>
+            <input type="checkbox" name="courses" id="icourses">
+            <label for="icourses">Additional Courses</label>
+          </div>
+          <div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
