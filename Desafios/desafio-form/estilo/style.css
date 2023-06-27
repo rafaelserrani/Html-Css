@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+main.container{
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: darkgrey;
+  max-width: 720px;
+  height: 98vh;
+  line-height: 2em;
+  padding: 20px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+}

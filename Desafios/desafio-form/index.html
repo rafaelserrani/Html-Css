@@ -13,23 +13,21 @@
     <h1>freeCodecamp Survey form</h1>
     <h2>Thank you for taking the time to help us improve the plataform</h2>
   </header>
-  <main>
-    <div class="container">
-      <div class="item">
+  <main class="container">
         <form action="" method="get" autocomplete="on">
-          <div>
+          <div  class="item">
             <label for="inome">Name</label>
             <input type="text" name="nome" id="inome" placeholder="Enter your name" required>
           </div>
-          <div>
+          <div  class="item">
             <label for="iemail">Email</label>
             <input type="email" name="email" id="iemail" placeholder="Enter your email" required>
           </div>
-          <div>
+          <div  class="item">
             <label for="iage">Age (Optional)</label>
             <input type="number" name="age" id="iage" placeholder="Age">
           </div>
-          <div>
+          <div  class="item">
             <label for="irole">Wich option best describes your current role?</label>
             <select name="role" id="irole">
               <option value="" selected>Select current role</option>
@@ -39,7 +37,7 @@
               <option value="">Prefer not to say</option>
               <option value="">Other</option>
             </select>
-          </div>
+          </div class="item">
           <div>
             <legend>Would option best describes your current role?</legend>
             <input type="radio" name="definitely" id="idefinitely" checked> 
@@ -49,7 +47,7 @@
             <input type="radio" name="not sure" id="inotesure">
             <label for="inotesure">Not sure</label>
           </div>
-          <div>
+          <div class="item">
             <label for="ifeature">Whay is your favorite feature of freeCodeCamp?</label>
             <select name="feature" id="ifeature">
               <option value="" selected>Select on a option</option>
@@ -59,7 +57,7 @@
               <option value="">Open source</option>
             </select>
           </div>
-          <div>
+          <div class="item">
             <legend>What Would you like to see improved? (Check all that apply)</legend>
             <input type="checkbox" name="frontend" id="ifrontend">
             <label for="ifrontend">Front-end Projects</label>
@@ -84,12 +82,14 @@
             <input type="checkbox" name="courses" id="icourses">
             <label for="icourses">Additional Courses</label>
           </div>
-          <div>
-            
+          <div class="item">
+            <label for="coments">Any coments or suggestions?</label>
+            <textarea name="suggestion" id="" cols="30" rows="10" placeholder="Enter your text here"></textarea>
+          </div>
+          <div class="item">
+            <input type="submit" value="Submit">
           </div>
         </form>
-      </div>
-    </div>
   </main>
 </body>
 </html>
