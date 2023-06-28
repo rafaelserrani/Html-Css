@@ -11,25 +11,25 @@
 <body>
   <header>
     <h1>freeCodecamp Survey form</h1>
-    <h2>Thank you for taking the time to help us improve the plataform</h2>
+    <p> <i>Thank you for taking the time to help us improve the plataform </i> </p>
   </header>
   <main class="container">
         <form action="" method="get" autocomplete="on">
           <div  class="item">
             <label for="inome">Name</label>
-            <input type="text" name="nome" id="inome" placeholder="Enter your name" required>
+            <input type="text" name="nome" id="inome" placeholder="Enter your name" required class="inputgroup">
           </div>
           <div  class="item">
             <label for="iemail">Email</label>
-            <input type="email" name="email" id="iemail" placeholder="Enter your email" required>
+            <input type="email" name="email" id="iemail" placeholder="Enter your email" required class="inputgroup">
           </div>
           <div  class="item">
             <label for="iage">Age (Optional)</label>
-            <input type="number" name="age" id="iage" placeholder="Age">
+            <input type="number" name="age" id="iage" placeholder="Age" class="inputgroup" >
           </div>
           <div  class="item">
             <label for="irole">Wich option best describes your current role?</label>
-            <select name="role" id="irole">
+            <select name="role" id="irole" class="inputgroup">
               <option value="" selected>Select current role</option>
               <option value="">Student</option>
               <option value="">Fulltime job</option>
@@ -40,16 +40,16 @@
           </div class="item">
           <div>
             <legend>Would option best describes your current role?</legend>
-            <input type="radio" name="definitely" id="idefinitely" checked> 
+            <input type="radio" name="definitely" id="idefinitely" checked class="inputgroup"> 
             <label for="idefinitely">Definitely</label>
-            <input type="radio" name="maybe" id="imaybe">
+            <input type="radio" name="maybe" id="imaybe" class="inputgroup">
             <label for="imaybe">Maybe</label>
-            <input type="radio" name="not sure" id="inotesure">
+            <input type="radio" name="not sure" id="inotesure" class="inputgroup">
             <label for="inotesure">Not sure</label>
           </div>
           <div class="item">
             <label for="ifeature">Whay is your favorite feature of freeCodeCamp?</label>
-            <select name="feature" id="ifeature">
+            <select name="feature" id="ifeature" class="inputgroup">
               <option value="" selected>Select on a option</option>
               <option value="">Challanges</option>
               <option value="">Projects</option>
@@ -58,36 +58,47 @@
             </select>
           </div>
           <div class="item">
-            <legend>What Would you like to see improved? (Check all that apply)</legend>
-            <input type="checkbox" name="frontend" id="ifrontend">
-            <label for="ifrontend">Front-end Projects</label>
-            <input type="checkbox" name="backend" id="ibackend">
-            <label for="ibackend">Back-end Projects</label>
-            <input type="checkbox" name="data" id="idata">
-            <label for="idata">Data visualization</label>
-            <input type="checkbox" name="challengs" id="ichallenge">
-            <label for="ichallenge">Challanges</label>
-            <input type="checkbox" name="opensource" id="iopensource">
-            <label for="iopensource">Open Source Community</label>
-            <input type="checkbox" name="gitter" id="igitter">
-            <label for="igitter">Gitter help rooms</label>
-            <input type="checkbox" name="videos" id="ivideos">
-            <label for="ivideos">Videos</label>
-            <input type="checkbox" name="city" id="icity">
-            <label for="icity">City meetups</label>
-            <input type="checkbox" name="wiki" id="iwiki">
-            <label for="iwiki">Wiki</label>
-            <input type="checkbox" name="forum" id="iforum">
-            <label for="iforum">Forum</label>
-            <input type="checkbox" name="courses" id="icourses">
-            <label for="icourses">Additional Courses</label>
+            <legend class="inputgroup">What Would you like to see improved? (Check all that apply)</legend>
+            
+            <label for="ifrontend"><input type="checkbox" name="frontend" id="ifrontend" class="inputgroup">Front-end Projects</label>
+            
+            <label  class="inputgroup" for="ibackend">Back-end Projects</label class="inputgroup">
+            <input type="checkbox" name="backend" id="ibackend" class="inputgroup">
+            
+              <label class="inputgroup" for="idata">Data visualization</label>
+            <input class="inputgroup" type="checkbox" name="data" id="idata" class="inputgroup">
+            
+            <label class="inputgroup" for="ichallenge">Challanges</label>
+            <input type="checkbox" name="challengs" id="ichallenge" class="inputgroup">
+            
+            <label class="inputgroup" for="iopensource">Open Source Community</label>
+            <input type="checkbox" name="opensource" id="iopensource" class="inputgroup">
+            
+            <label class="inputgroup" for="igitter">Gitter help rooms</label>
+            <input type="checkbox" name="gitter" id="igitter" class="inputgroup">
+            
+            <label class="inputgroup" for="ivideos">Videos</label>
+            <input type="checkbox" name="videos" id="ivideos" class="inputgroup">
+            
+            <label  class="inputgroup"for="icity">City meetups</label>
+            <input type="checkbox" name="city" id="icity" class="inputgroup">
+            
+            <label class="inputgroup" for="iwiki">Wiki</label>
+            <input type="checkbox" name="wiki" id="iwiki" class="inputgroup">
+            
+            <label class="inputgroup" for="iforum">Forum</label>
+            <input type="checkbox" name="forum" id="iforum" class="inputgroup">
+            
+            <label class="inputgroup" for="icourses">Additional Courses</label>
+            <input type="checkbox" name="courses" id="icourses" class="inputgroup">
+            
           </div>
           <div class="item">
             <label for="coments">Any coments or suggestions?</label>
-            <textarea name="suggestion" id="" cols="30" rows="10" placeholder="Enter your text here"></textarea>
+            <textarea name="suggestion" id="" cols="30" rows="10" placeholder="Enter your text here" class="inputgroup"></textarea>
           </div>
           <div class="item">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="inputgroup">
           </div>
         </form>
   </main>
