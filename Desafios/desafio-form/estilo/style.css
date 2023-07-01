@@ -50,7 +50,7 @@ header > p {
   padding: 5px;
   border-radius: 5px;
   border: none;
-  box-shadow: 2px 2px 5px rgba(218, 202, 202, 0.381);
+  box-shadow: 2px 2px 5px rgba(218, 202, 202, 0.216);
   margin-bottom: 10px;
 }
 
@@ -76,6 +76,7 @@ label{
   cursor: pointer;
   margin-top: 5px;
   padding: 10px;
+  font-weight: bold;
   
 }
 
@@ -83,5 +84,6 @@ label{
   background-color: white;
   color: black;
   font-weight: bold;
+  transform: translate(-3px,-3px);
   transition: 1s;
 }
