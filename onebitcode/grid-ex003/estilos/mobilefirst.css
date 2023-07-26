@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header{
+  width: 100%;
+  background-color: black;
+  box-shadow: 0px 0px 5px brgba(0, 0, 0, 0.309);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.logo{
+  width: 250px;
+  height: auto;
+}
+
+.login{
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+
+.login > p{
+  padding: 15px;
+}
+
+.login > p:hover{
+  border-bottom: 2px solid darkgray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  
+}
+
+h2{
+  font-weight: lighter;
+  color: rgb(99, 97, 97);
+}
