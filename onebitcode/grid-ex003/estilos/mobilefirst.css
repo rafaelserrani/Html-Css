@@ -48,6 +48,7 @@ header{
 article{
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 30px;
   width: 100%;
@@ -72,6 +73,19 @@ article{
   border-bottom: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+   background-color: black;
 }
 
 
