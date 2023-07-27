@@ -45,13 +45,71 @@ header{
   border-radius: 10px;
 }
 
-img{
+article{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.esportes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+
+.item{
   width: 300px;
+  text-align: justify;
+}
+
+.item:hover{
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+footer{
+  width: 100%;
+  background-color: black;
+  box-shadow: 0px 0px 5px brgba(0, 0, 0, 0.309);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 20px 0px;
+}
+
+footer > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+footer > a:hover{
+  border-bottom: 1px solid darkgray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+img{
+  width:300px;
   height: 200px;
+  border-radius: 10px;
   
 }
 
 h2{
   font-weight: lighter;
-  color: rgb(99, 97, 97);
+}
+
+h1{
+  font-size: 2em;
 }
