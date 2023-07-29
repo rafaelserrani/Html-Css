@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+header{
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.login{
+  display: flex;
+  margin-right: 50px;
+  column-gap: 25px;
+}
+
+.login > p{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login >p:hover{
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+}
+
+.logo{
+  width: 250px;
+  margin-left: 50px;
+}
+
+.titulo{
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  font-size: 2em;
+}
+
+
+
+img{
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 600px;
+}
+
+.esportes{
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  padding: 30px 100px 30px 100px;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-areas: 
+  "item1 item2 item3 aside"
+  "item4 item5 item6 aside"
+  "item7 item8 item9 aside";
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.esportes > div{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 1em;
+  width: 352px;
+}
+
+.esportes > div >p{
+  font-size: 1.5em;
+}
+
+
+.esportes > div:hover{
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+aside{
+ grid-area: aside;
+ background-color: black;
+ color: white;
+ padding: 40px;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ row-gap: 30px;
+}
+
+.imgaside{
+  width: 270px;
+  height: 200px;
+}
+.item1{
+  grid-area: item1;
+}
+
+.item2{
+  grid-area: item2;
+}
+
+.item3{
+  grid-area: item3;
+}
+
+.item4{
+  grid-area: item4;
+}
+
+.item5{
+  grid-area: item5;
+}
+
+.item6{
+  grid-area: item6;
+}
+
+.item7{
+  grid-area: item7;
+}
+
+.item8{
+  grid-area: item8;
+}
+
+.item9{
+  grid-area: item9;
+}
+
+footer{
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+}
